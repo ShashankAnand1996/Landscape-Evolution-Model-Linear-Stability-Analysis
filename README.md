@@ -20,7 +20,7 @@ Each number written below in the list explains the operations and functions for 
 5. Extract the critical Channelization Index _C<sub>I<sub>cr</sub></sub>_  and the corresponding fastest growing (positive) spatial frequency (_k<sub>cr</sub>_).
 6. Save relevant arrays for plotting and further investigations.
 
-# Contact Me
+# Contact Us
 For more information about this research, you can reach out to us at [Shashank Kumar Anand](mailto:skanannd@princeton.edu?subject=[GitHub]%20Landscape%20Evolution%20Model%20(LEM)%20Stability%20Analysis) or [Amilcare Porporato](mailto:aporpora@princeton.edu?subject=[GitHub]%20Landscape%20Evolution%20Model%20(LEM)%20Stability%20Analysis). 
 
 # Other Relevant Links
