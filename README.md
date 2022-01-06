@@ -16,7 +16,7 @@ Each number written in the list below explains the operations and functions for 
 1. Import relevant packages from  numpy and scipy libraries.
 2. Import quadrature points and weight functions arrays (**s200.mat** and **w200.mat**), define Python functions for trial and test functions used in the weak formulation, and define Python functions to numerically obtain the slope and its derivatives for generic values of _m_ and _n_.
 3. Select values of parameters (_C<sub>I</sub>,m,n,L,U,k_), global variables and arrays used in the solver.
-4. For every Channelization Index (_C<sub>I</sub>_) and wavenumber (_k_), solve the eigen-value problem using spectral numerical method.
+4. For every Channelization Index (_C<sub>I</sub>_) and wavenumber (_k_), solve the eigen-value problem using spectral Galerkin technique with numerical quadrature.
 5. Extract the critical Channelization Index _C<sub>I<sub>cr</sub></sub>_  and the corresponding fastest growing (positive) spatial frequency (_k<sub>cr</sub>_).
 6. Save relevant arrays for plotting and further investigations.
 
