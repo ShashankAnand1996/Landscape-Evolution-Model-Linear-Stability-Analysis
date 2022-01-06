@@ -5,14 +5,14 @@
 # Publication
 The submitted research work can be found here: .
 # Installation
-- The required python libraries are numpy and scipy libraries. 
+- Required python libraries are numpy and scipy libraries. 
 
 - This repository contains the code as a jupyter notebook, which can be installed using using pip as `pip install notebook` or using Conda `conda install -c conda-forge notebook`.
 
-- Files **s200.mat** and **w200.mat** in the repository contain 200 Quadrature Points and Weight Functions, respectively, for the numerical integration.
+- Files **s200.mat** and **w200.mat** in the repository contain 200 Quadrature Points and Weight Functions, respectively, for the numerical solver.
 
 # Code structure
-Each number written below in the list explains the operations and functions for the particular Cell of the Jupyter Notebook.
+Each number written in the list below explains the operations and functions for the particular Cell of the Jupyter Notebook.
 1. Import relevant packages from  numpy and scipy libraries.
 2. Import quadrature points and weight functions arrays (**s200.mat** and **w200.mat**), define Python functions for trial and test functions used in the weak formulation, and define Python functions to numerically obtain the slope and its derivatives for generic values of _m_ and _n_.
 3. Select values of parameters (_C<sub>I</sub>,m,n,L,U,k_), global variables and arrays used in the solver.
