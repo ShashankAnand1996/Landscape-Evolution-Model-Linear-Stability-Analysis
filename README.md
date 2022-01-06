@@ -19,3 +19,9 @@ Each number written below in the list explains the operations and functions for 
 4. For every Channelization Index (_C<sub>I</sub>_) and wavenumber (_k_), solve the eigen-value problem using spectral numerical method.
 5. Extract the critical Channelization Index _C<sub>I<sub>cr</sub></sub>_  and the corresponding fastest growing (positive) spatial frequency (_k<sub>cr</sub>_).
 6. Save relevant arrays for plotting and further investigations.
+
+# Contact Me
+For more information about th
+
+# Other Relevant Links
+Well-commented Python code for the numerical simulation results of the Landscape Evolution Model (LEM) by the same author is available at [github.com/ShashankAnand1996/LEM](https://github.com/ShashankAnand1996/LEM). The relevant manuscript is available at [Linear layout of multiple flow-direction networks for landscape-evolution simulations](https://doi.org/10.1016/j.envsoft.2020.104804).
