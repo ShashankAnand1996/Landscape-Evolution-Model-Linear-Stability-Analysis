@@ -21,7 +21,7 @@ Each number written below in the list explains the operations and functions for 
 6. Save relevant arrays for plotting and further investigations.
 
 # Contact Me
-For more information about th
+For more information about this research, you can reach out to us at [Shashank Kumar Anand](mailto:skanannd@princeton.edu?subject=[GitHub]). 
 
 # Other Relevant Links
 Well-commented Python code for the numerical simulation results of the Landscape Evolution Model (LEM) by the same author is available at [github.com/ShashankAnand1996/LEM](https://github.com/ShashankAnand1996/LEM). The relevant manuscript is available at [Linear layout of multiple flow-direction networks for landscape-evolution simulations](https://doi.org/10.1016/j.envsoft.2020.104804).
