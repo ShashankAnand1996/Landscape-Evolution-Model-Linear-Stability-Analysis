@@ -1,4 +1,5 @@
 # Landscape Evolution Model (LEM) Stability Analysis
+
 - This is a Python code to numerically compute the solution of the linear stability analysis problem for the detachment-limited landscape evolution model (LEM).
 - Using the developed code, the role of _m_ and _n_ (exponents of the specific drainage area and slope, respectively in the fluvial erosion term of the model) on the onset and selection of regular valley spacing can be examined.
 
