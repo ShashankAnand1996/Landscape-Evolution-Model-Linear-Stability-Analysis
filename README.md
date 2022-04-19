@@ -3,7 +3,7 @@
 - Using the developed code, the role of _m_ and _n_ (exponents of the specific drainage area and slope, respectively in the fluvial erosion term of the model) on the onset and selection of regular valley spacing can be examined.
 
 # Publication
-The submitted research work can be found here: .
+The submitted research work can be found here: https://www.essoar.org/doi/10.1002/essoar.10511126.1.
 # Installation
 - Required python libraries are numpy and scipy libraries. 
 
