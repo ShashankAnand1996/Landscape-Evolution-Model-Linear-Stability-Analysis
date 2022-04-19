@@ -9,19 +9,19 @@ The submitted research work can be found here: https://www.essoar.org/doi/10.100
 
 # Installation
 
-- Required python libraries are numpy and scipy libraries. 
+- *numpy* and *scipy* are the required python libraries. 
 
-- This repository contains the code as a jupyter notebook, which can be installed using using pip as `pip install notebook` or using Conda `conda install -c conda-forge notebook`.
+- This repository contains the code as a *jupyter notebook*, which can be installed using pip as `pip install notebook` or using Conda `conda install -c conda-forge notebook`.
 
 - Files **s200.mat** and **w200.mat** in the repository contain 200 Quadrature Points and Weight Functions, respectively, for the numerical solver.
 
 # Code structure
 
 Each number written in the list below explains the operations and functions for the particular Cell of the Jupyter Notebook.
-1. Import relevant packages from  numpy and scipy libraries.
+1. Import relevant packages from *numpy* and *scipy* libraries.
 2. Import quadrature points and weight functions arrays (**s200.mat** and **w200.mat**), define Python functions for trial and test functions used in the weak formulation, and define Python functions to numerically obtain the slope and its derivatives for generic values of _m_ and _n_.
 3. Select values of parameters (_C<sub>I</sub>,m,n,L,U,k_), global variables and arrays used in the solver.
-4. For every Channelization Index (_C<sub>I</sub>_) and wavenumber (_k_), solve the eigen-value problem using spectral Galerkin technique with numerical quadrature.
+4. For every Channelization Index (_C<sub>I</sub>_) and wavenumber (_k_), solve the eigenvalue problem using the spectral Galerkin technique with numerical quadrature.
 5. Extract the critical Channelization Index _C<sub>I<sub>cr</sub></sub>_  and the corresponding fastest growing (positive) spatial frequency (_k<sub>cr</sub>_).
 6. Save relevant arrays for plotting and further investigations.
 
@@ -31,4 +31,4 @@ For more information about this research, you can reach out to me: [Shashank Kum
 
 # Other Links
 
-Well-commented Python code for the numerical simulations of the Landscape Evolution Model (LEM) by the same author is available at [github.com/ShashankAnand1996/LEM](https://github.com/ShashankAnand1996/LEM). The developed code has been tested to provide efficient and accurate solutions of the LEM in detachment-limited conditions. The published manuscript is also available: [Linear layout of multiple flow-direction networks for landscape-evolution simulations](https://doi.org/10.1016/j.envsoft.2020.104804).
+Well-commented Python code for the numerical simulations of the Landscape Evolution Model (LEM) by the same author is available at [github.com/ShashankAnand1996/LEM](https://github.com/ShashankAnand1996/LEM). The developed code has been tested to provide efficient and accurate solutions for the LEM in detachment-limited conditions. The published manuscript is also available: [Linear layout of multiple flow-direction networks for landscape-evolution simulations](https://doi.org/10.1016/j.envsoft.2020.104804).
