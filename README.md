@@ -5,7 +5,7 @@
 
 # Publication
 
-The submitted research work can be found here: https://www.essoar.org/doi/10.1002/essoar.10511126.1.
+The peer-reviewed publication can be found here: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JF006716.
 
 # Installation
 
